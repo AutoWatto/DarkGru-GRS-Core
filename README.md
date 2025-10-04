@@ -4,10 +4,10 @@
 **A custom configuration expansion for the Darkgru GRS ecosystem**
 
 [![Arma Reforger Workshop](https://img.shields.io/badge/Arma_Reforger-Workshop-1a1a1a?logo=arma&logoColor=white)](https://reforger.armaplatform.com/workshop/65E856EA028B4411-DarkgruGRSConfig)
-![Version](https://img.shields.io/badge/Version-VERSION_PLACEHOLDER-blue)
-![Game Version](https://img.shields.io/badge/Reforger_Compatibility-GAMEVERSION_PLACEHOLDER-green)
-![License](https://img.shields.io/badge/License-APL-lightgrey)
-![Downloads](https://img.shields.io/badge/Downloads-DOWNLOADS_PLACEHOLDER-brightgreen)
+[![Version](https://img.shields.io/badge/Version-1.0.41-blue)](#)
+[![Game Version](https://img.shields.io/badge/Reforger_Compatibility-1.4.0.55-green)](#)
+[![License](https://img.shields.io/badge/License-APL-lightgrey)](#)
+[![Downloads](https://img.shields.io/badge/Downloads-8.1k+-brightgreen)](#)
 
 </div>
 
@@ -117,6 +117,8 @@ Your help improves realism, reliability, and teamwork.
 If you're collaborating on this project or developing locally:
 
 ### 📦 Folder Layout
+
+
 
 Darkgru-GRS-Config/
 ├── addons/
