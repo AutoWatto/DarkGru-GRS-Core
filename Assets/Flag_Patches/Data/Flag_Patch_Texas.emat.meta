@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F47F95C5AAA7817C}Assets/Flag_Patches/Data/Flag_Patch_Texas.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

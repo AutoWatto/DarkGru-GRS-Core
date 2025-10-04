@@ -1,0 +1,4 @@
+MatPBRBasic {
+ Color 0.546 0.531 0.481 1
+ BCRMap "{08FF4DA85FF60BD4}Assets/Rectangle Patches/Data/TheChief.edds"
+}

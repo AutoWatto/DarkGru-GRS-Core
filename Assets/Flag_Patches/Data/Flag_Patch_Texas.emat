@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.546 0.531 0.481 1
+ Diffuse 0.418 0.418 0.418 1
+ BCRMap "{6162E5C467DB6A5A}Assets/Flag_Patches/Data/Texas_embroidery.edds"
+}

@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.546 0.531 0.481 1
+ Diffuse 0.418 0.418 0.418 1
+ BCRMap "{B187BD7BF1446657}Assets/Flag_Patches/Data/PR_BW_embroidery.edds"
+}

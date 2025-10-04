@@ -1,0 +1,4 @@
+MatPBRBasic {
+ GlobalLayerBCRMap "{7AF2EF4857B3A995}Assets/Circle_Patches/Data/TTNS_Patch_Black_test_BCR.edds"
+ BCRMap "{A0214B88B167B39A}Assets/Circle_Patches/Data/Watto_Patch_BCR.edds"
+}

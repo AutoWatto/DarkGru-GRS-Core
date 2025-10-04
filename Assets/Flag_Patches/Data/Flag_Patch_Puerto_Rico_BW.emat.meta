@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1BAE41246B722B7D}Assets/Flag_Patches/Data/Flag_Patch_Puerto_Rico_BW.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.546 0.531 0.481 1
+ Diffuse 0.418 0.418 0.418 1
+ BCRMap "{DBD228EEA79F3753}Assets/Flag_Patches/Data/CSAT_embroidery.edds"
+}

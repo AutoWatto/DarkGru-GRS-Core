@@ -1,0 +1,4 @@
+MatPBRBasic {
+ Color 0.546 0.531 0.481 1
+ BCRMap "{43CE1D6CD0ED08A1}Assets/Rectangle Patches/Data/MedicKinda.edds"
+}
