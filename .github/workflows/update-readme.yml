@@ -1,0 +1,40 @@
+name: Update README with Workshop Stats
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Runs daily at 6:00 UTC
+  workflow_dispatch:      # Allows manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Fetch Workshop Info
+        run: |
+          echo "Fetching Arma Reforger Workshop info..."
+          curl -s https://reforger.armaplatform.com/api/workshop/65E856EA028B4411-DarkgruGRSConfig > workshop.json
+          cat workshop.json | jq '.'
+
+      - name: Update README badges
+        run: |
+          VERSION=$(jq -r '.data.version // "N/A"' workshop.json)
+          DOWNLOADS=$(jq '.data.stats.downloads // 0' workshop.json)
+
+          # Replace placeholders in README.md
+          sed -i "s/VERSION_PLACEHOLDER/$VERSION/" README.md
+          sed -i "s/DOWNLOADS_PLACEHOLDER/$DOWNLOADS/" README.md
+
+      - name: Commit & push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Auto-update Workshop stats" || echo "No changes to commit"
+          git push
