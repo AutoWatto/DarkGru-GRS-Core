@@ -56,32 +56,14 @@ Special thanks to:
 
 | # | Mod Name | Workshop ID / GUID | Type | Required |
 |:-:|:----------|:-------------------|:------|:----------:|
-| 1 | **GRS – Essentials** | `5C358528BD64E8BB` | Core Framework | ✅ |
-| 2 | **GRS – Apparel** | `5C358529ED47E1CE` | Gear Assets | ✅ |
-| 3 | **GRS – Modder Arsenal** | `5C35852ACBFCB0B7` | Extended Arsenal | ✅ |
-| 4 | **GRS – Framework** | `5C35852B2D24D58C` | Config Backend | ✅ |
-| 5 | **GRS – Patches** | `5C35852C13E47AD4` | Cosmetic Content | ✅ |
-| 6 | **GRS – Dev BnB / VnR Bundle** | `5C35852D69E4C8CC` | Combined Dependencies | ✅ |
-| 7 | **Darkgru G3s** | `65E856EA4A8E224C` | Gear Expansion | ✅ |
-| 8 | **Darkgru Conflict Core** | `65E856E9C5F730B0` | Faction Framework | ✅ |
-| 9 | **GRS – Vehicles (Optional)** | `5C35852E8ABDD1A7` | Optional Extension | ⚪ Optional |
-| 10 | **WCS Admin Utilities (Optional)** | `65789E2AF1CC10A2` | Admin Tools | ⚪ Optional |
-
-> ℹ️ *Replace GUIDs above with actual ones from your `.gproj` dependencies list.*
-
----
-
-## 📸 Screenshots  
-
-> *(Add your mod images in `/docs/screenshots/` and update the file names below.)*
-
-<div align="center">
-  <img src="docs/screenshots/grsconfig_1.jpg" width="80%" alt="Darkgru GRS Config Screenshot 1"><br>
-  <em>Enhanced GRS loadouts integrated into Darkgru factions.</em>
-  <br><br>
-  <img src="docs/screenshots/admin_box.jpg" width="80%" alt="Darkgru Admin Box"><br>
-  <em>The new DarkGru Admin Box for testing and management.</em>
-</div>
+| 1 | **GRS – Essentials** | `65DA00CAC60A8391` | Core Framework | ✅ |
+| 2 | **GRS – Apparel** | `65157D09F042428A` | Gear Assets | ✅ |
+| 3 | **GRS – Modder Arsenal** | `65215863D3D80857` | Extended Arsenal | ✅ |
+| 4 | **GRS – Framework** | `65DACC64CE785B6C` | Config Backend | ✅ |
+| 5 | **GRS – Patches** | `657B064AE0E231DF` | Cosmetic Content | ✅ |
+| 6 | **GRS – Dev BnB / VnR Bundle** | `65DA00B2C5722F03` `65DA0096C852F210` | Combined Dependencies | ✅ |
+| 7 | **Darkgru G3s** | `655A5999AC216F33` | Gear Expansion | ✅ |
+| 8 | **Darkgru Conflict Core** | `658E469761DF91C5` | Faction Framework | ✅ |
 
 ---
 
@@ -136,3 +118,34 @@ If you're collaborating on this project or developing locally:
 
 ### 📦 Folder Layout
 
+Darkgru-GRS-Config/
+├── addons/
+│ └── DarkgruGRSConfig/
+│ ├── Configs/
+│ ├── Prefabs/
+│ ├── Scripts/
+│ ├── UI/
+│ ├── DarkgruGRSConfig.gproj
+│ └── mod.cpp
+├── docs/
+│ ├── screenshots/
+│ └── usage_guide.md
+├── .gitignore
+├── LICENSE
+└── README.md
+
+
+### ⚙️ Steps for Collaborators
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/YOURNAME/Darkgru-GRS-Config.git
+2. Open DarkgruGRSConfig.gproj in Arma Reforger Tools.
+
+3. Verify dependencies are installed locally.
+
+4. Work on your branch (feature/yourname-feature).
+
+5. Submit pull requests when ready.
+
+💡 Each collaborator must have the same folder structure and dependencies to avoid path issues in Workbench.
