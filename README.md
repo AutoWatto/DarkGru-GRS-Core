@@ -4,10 +4,10 @@
 **A custom configuration expansion for the Darkgru GRS ecosystem**
 
 [![Arma Reforger Workshop](https://img.shields.io/badge/Arma_Reforger-Workshop-1a1a1a?logo=arma&logoColor=white)](https://reforger.armaplatform.com/workshop/65E856EA028B4411-DarkgruGRSConfig)
-[![Version](https://img.shields.io/badge/Version-1.0.41-blue)](#)
-[![Game Version](https://img.shields.io/badge/Reforger_Compatibility-1.4.0.55-green)](#)
-[![License](https://img.shields.io/badge/License-APL-lightgrey)](#)
-[![Downloads](https://img.shields.io/badge/Downloads-8.1k+-brightgreen)](#)
+![Version](https://img.shields.io/badge/Version-VERSION_PLACEHOLDER-blue)
+![Game Version](https://img.shields.io/badge/Reforger_Compatibility-GAMEVERSION_PLACEHOLDER-green)
+![License](https://img.shields.io/badge/License-APL-lightgrey)
+![Downloads](https://img.shields.io/badge/Downloads-DOWNLOADS_PLACEHOLDER-brightgreen)
 
 </div>
 
@@ -61,7 +61,7 @@ Special thanks to:
 | 3 | **GRS – Modder Arsenal** | `65215863D3D80857` | Extended Arsenal | ✅ |
 | 4 | **GRS – Framework** | `65DACC64CE785B6C` | Config Backend | ✅ |
 | 5 | **GRS – Patches** | `657B064AE0E231DF` | Cosmetic Content | ✅ |
-| 6 | **GRS – Dev BnB / VnR Bundle** | `65DA00B2C5722F03` `65DA0096C852F210` | Combined Dependencies | ✅ |
+| 6 | **GRS – Dev BnB / VnR Bundle** | `65DA00B2C5722F03`, `65DA0096C852F210` | Combined Dependencies | ✅ |
 | 7 | **Darkgru G3s** | `655A5999AC216F33` | Gear Expansion | ✅ |
 | 8 | **Darkgru Conflict Core** | `658E469761DF91C5` | Faction Framework | ✅ |
 
@@ -133,19 +133,21 @@ Darkgru-GRS-Config/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
+---
 
 ### ⚙️ Steps for Collaborators
 
 1. Clone the repo:
    ```bash
    git clone https://github.com/YOURNAME/Darkgru-GRS-Config.git
-2. Open DarkgruGRSConfig.gproj in Arma Reforger Tools.
 
-3. Verify dependencies are installed locally.
+---
+Open DarkgruGRSConfig.gproj in Arma Reforger Tools.
 
-4. Work on your branch (feature/yourname-feature).
+Verify dependencies are installed locally.
 
-5. Submit pull requests when ready.
+Work on your branch (feature/yourname-feature).
+
+Submit pull requests when ready.
 
 💡 Each collaborator must have the same folder structure and dependencies to avoid path issues in Workbench.
