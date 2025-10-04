@@ -1,0 +1,22 @@
+GenericEntity {
+ ID "65CC0BEF64421013"
+ components {
+  BaseRadioComponent "{65CC0BEE0F327293}" {
+   "Encryption key" "coldBorscht"
+   Transceivers {
+    RadioTransceiver "{65CC0BEE0F3272AB}" {
+     ChannelFrequency 38000
+     "Transmitting Range" 1300
+     "Min tunable frequency" 38000
+     "Max tunable frequency" 54000
+    }
+    RadioTransceiver "{65CC0BEE0F3272A6}" {
+     ChannelFrequency 42000
+     "Transmitting Range" 1300
+     "Min tunable frequency" 38000
+     "Max tunable frequency" 54000
+    }
+   }
+  }
+ }
+}

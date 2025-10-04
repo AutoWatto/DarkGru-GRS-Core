@@ -1,0 +1,21 @@
+GenericEntity {
+ ID "65CC0BEF6202882A"
+ components {
+  BaseRadioComponent "{65CC0BEE0F3A76A4}" {
+   Transceivers {
+    RadioTransceiver "{65CC0BEE0F3A76B4}" {
+     ChannelFrequency 44000
+     "Transmitting Range" 1300
+    }
+    RadioTransceiver "{65CC0BEE0F3A76B2}" {
+     ChannelFrequency 46000
+     "Transmitting Range" 1300
+    }
+    RadioTransceiver "{65CC0BEE0F3A76B0}" {
+     ChannelFrequency 48000
+     "Transmitting Range" 1300
+    }
+   }
+  }
+ }
+}
