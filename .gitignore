@@ -1,0 +1,37 @@
+# === Arma Reforger Modding ===
+# Ignore compiled or temporary files
+
+# Compiled assets
+*.pak
+*.rdb
+*.gproj.user
+*.binarize
+*.binarized
+*.bin
+
+# Workbench cache / temporary folders
+Temp/
+Cache/
+Logs/
+Build/
+Backup/
+._*
+.DS_Store
+Thumbs.db
+
+# Editor backups
+*.bak
+*.old
+*.tmp
+
+# Mod dependencies / external builds
+*.pakdependencies
+Dependencies/
+
+# IDE folders
+.vscode/
+.idea/
+*.code-workspace
+
+# Generated docs cache
+docs/screenshots/thumbs/
